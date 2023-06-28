@@ -1,0 +1,133 @@
+go语法
+fmt是Go语言的标准库，去GOROOT下去加载该模块
+相对路径     import   "./model"  　　　　　
+//当前文件同一目录的model目录，但是不建议这种方式import
+绝对路径     import   "shorturl/model"  　　  
+//加载GOPATH/src/shorturl/model模块
+	  
+程序的初始化和执行都起始于 main package 包，并且 main函数只能在 main 包中，一个项目里也只能有一个 main package。
+一个 go 程序文件中可以有一个 init()，一个项目中可以有 n 个 init() 函数。
+
+1、变量声明
+用var关键字声明
+变量类型位于变量名称的后面---显式声明
+
+用:=赋值
+num := 3 等同于 var num int = 3---隐式
+_  赋给这个标识符的值都将被抛弃
+
+2、常量声明
+定义的时候必须赋值
+iota：go语言的常量计数器，只能在常量的表达式中使用，在const关键字出现时将被重置为0。const中每新增一行常量声明将使iota计数一次(iota可理解为const语句块中的行索引)
+
+3、基本数据类型
+bool
+数值--int、int8、int16、int32、int64     常用int(int64)
+    --uint、uint8、uint16、uint32、uint64
+浮点数--float32、float64
+复数(虚数和实数)--complex32、complex64
+byte 类似uint8
+rune 类似int32
+uint 32位或64位
+uintptr 无符号整型，用于存放一个指针
+
+字符串string
+单引号只能单个数字、字母、或字符，对应ASCII值
+双引号识别有转义字符，如\n、\r等
+反引号不识别，会直接打印出来
+
+两种字符串声明方式
+str1 := "str1"
+str2 := `str2`
+
+4、slice切片(“动态数组”)
+make([ ]Type, length, capacity) 长度为切片的容量 capacity
+make([ ]Type, length) 长度为切片的长度 length
+
+make函数是Go的内置函数，它的作用是为slice、map或chan初始化并返回引用
+
+5、map
+var m map[string]string //map声明,key、value可以接任何类型
+m = map[string]string{}
+
+m1 := map[string]string{}
+
+m2 := make(map[string]string)
+
+m3 := map[int]interface{}{} //可以接任意类型
+
+
+5、err等于nil说明运行正常没有错误
+nil的意思是无，或者是零值
+可以在 if 表达式之前添加一个执行语句，再根据变量值进行判断
+if err := Connect(); err != nil {
+    fmt.Println(err)
+    return
+}
+
+6、GORM-对象关系映射框架
+code-gorm
+
+7、新项目下载依赖
+go mod tidy
+go mod init 文件名
+
+8、
+Transaction start a transaction as a block, return error will rollback, otherwise to commit
+gorm的DB提供了Transaction方法，相当于一个事务模板，自动commit或者rollback，它提供了func(tx *gorm.DB) error参数用于自定义事务内的数据库操作。
+
+相关知识
+https://learnku.com/articles/63555   go swagger用法
+
+
+
+9、排查CPU占用过高问题
+go性能分析开启pprof
+在yaml里添加debug，把open-pprof修改为true
+debug:
+  open-pprof: true
+http://10.25.10.120:3333/debug/pprof/ 网页版
+yum install graphviz安装# for centos
+go tool pprof http://10.25.10.120:3333/debug/pprof/profile?seconds=60 生成gz文件
+进入pprof
+top
+traces   runtime.gcBgMarkWorker 函数   golang 垃圾回收
+go tool pprof -http 10.25.10.120:8089 /root/pprof/pprof.audit-server.samples.cpu.006.pb.gz 生成web网页，火焰图
+每个方块代表一个函数，它下面一层表示这个函数会调用哪些函数，方块的大小代表了使用 CPU 所占百分比
+
+pdf  生成pdf文件
+find / -name profile001.pdf 全局查文件
+ps查进程
+
+go tool pprof -http 10.25.10.134:8081 /root/pprof/pprof.audit-server.samples.cpu.002.pb.gz
+
+10、vscode配置go远程一键启动
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Package",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "/home/fjj/audit/server/main.go"
+        }
+    ]
+} 
+
+
+11、链接2022
+go swagger 使用 https://learnku.com/articles/63555
+Go开发环境搭建(VScode) https://www.cnblogs.com/itshare/p/12679529.html
+Go语言入门教程 http://c.biancheng.net/golang/
+go基础语法 https://blog.csdn.net/sfklyqh/category_11608230.html
+Go语言-func 函数定义 https://blog.csdn.net/xyz/article/details/120027722
+GO面试汇总 https://www.kancloud.cn/qq5202056/gomianshi/2657166
+MySQL-使用自增ID无法插入ID为0值 https://www.dandelioncloud.cn/article/details/1493743240443666433
+
+Redis工具使用教程  https://www.cnblogs.com/qingmuchuanqi48/p/11966568.html
+RESTful风格  https://www.cnblogs.com/aaaazzzz/p/13357601.html
+yaml文件的属性赋值  https://blog.csdn.net/m0_38057941/article/details/116275039
