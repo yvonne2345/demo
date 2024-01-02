@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f76aadec-310c-44b3-9227-38e1f09a340c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/7.4/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/split/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/.idea/html.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/resource/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/resource/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/code/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/code/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/arrayOrString/合并两个有序数组/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/arrayOrString/移除元素/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/audit/chan.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/audit/map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/audit/string.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tools/JetBrains  2022 最新全家桶激（7.30）活.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/JetBrains  2022 最新全家桶激（7.30）活.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tools/傻瓜式一键鸡活2023.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/傻瓜式一键鸡活2023.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/boolSpilt/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/boolSpilt/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/split/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/split/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.txt" beforeDir="false" afterPath="$PROJECT_DIR$/go.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,22 +33,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/demo/code&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "D:/demo",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="go build code/split" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="demo" />

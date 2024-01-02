@@ -14,7 +14,7 @@ func main() {
 	var manageAuth ManageAuthConfig
 
 	str := "{\"enableSSH\":true,\"enableSMP\":false}"
-	authJson, err := json.Marshal(str)
+	//authJson, err := json.Marshal(str)
 	json.Unmarshal([]byte(str), &manageAuth)
 	fmt.Println(manageAuth)
 

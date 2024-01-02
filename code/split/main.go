@@ -86,10 +86,13 @@ func main() {
 	//str = strings.ReplaceAll(str, "\"name\"", "name")
 	//fmt.Println(str)
 
-	str := "{\"time\":null,\"arrays\":null}"
-	str = getResultEmpty(str)
-	fmt.Println(str)
+	//str := "{\"time\":null,\"arrays\":null}"
+	//str = getResultEmpty(str)
+	//fmt.Println(str)
 
+	str := "-->80"
+	s := strings.Split(str, "-->")[1]
+	fmt.Println(s)
 }
 
 func getResultEmpty(str string) string {

@@ -316,11 +316,47 @@ outAft, _ := commandAft.Output()
 global.NETVINE_LOG.Info("nftTables初始化后：" + string(outAft))
 
 
+ip saddr 1.1.1.1 ip daddr 1.1.1.1 tcp dport 502 meta time "2023-11-15 00:00:00"-"2023-11-16 00:00:00" counter packets 0 bytes 220 meta mark set 0x05f5f465
+
+nft replace rule ip netvine-count-table flow-detection-chain handle 7 ip saddr 192.168.111.111 ip daddr 192.168.111.111 tcp dport 502 meta hour "00:00"-"14:01" meta day { "Monday", "Tuesday" } counter packets 0 bytes 0  替换/修改
+
+
+nft replace rule netdev netdev-netvine-table flow-detection-chain-enp6s0 handle 25 counter packets 0 bytes 0
+
+nft replace rule ip netvine-count-table flow-detection-chain handle 7 ip saddr 192.168.111.111 ip daddr 192.168.111.111 tcp dport 502 meta hour "00:00"-"14:01" meta day { "Monday", "Tuesday" } counter packets 0 bytes 0
+
+
+
+nft replace rule netdev netdev-netvine-table flow-detection-chain-enp6s0 handle 25 counter packets 0 bytes 0
+
+
 31、go
 var x int = 2 and x := 2 这两种声明变量的区别
 结果上来说是相等的，但 x := 2  只能在函数体类声明
 
 
+
+申请书
+机械
+http://www.cmpedu.com/books/apply.htm
+教育账号18916972239  密码Shua123
+Docker容器管理与应用项目教程
+Python语言基础(朱晓龙)
+C语言程序设计教程 第4版
+
+
+人邮
+https://www.ryjiaoyu.com/
+人邮教育账号18916972239 密码caoshua1322
+数据库原理与MySQL应用（微课版）
+网络安全技术与应用
+Go语言开发实战（慕课版）
+
+
+Java程序设计开发实战（视频讲解版）
+路由交换技术
+网络互联技术任务驱动式教程（微课版）
+局域网组网技术项目式教程（微课版）  14页
 
 
 
