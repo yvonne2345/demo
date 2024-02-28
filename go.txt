@@ -96,7 +96,7 @@ https://learnku.com/articles/63555   go swagger用法
 
 
 
-9、排查CPU占用过高问题
+#9、排查CPU占用过高问题
 go性能分析开启pprof
 在yaml里添加debug，把open-pprof修改为true
 debug:
@@ -153,7 +153,7 @@ yaml文件的属性赋值  https://blog.csdn.net/m0_38057941/article/details/116
 
 
 
-12、修改数据库用户权限
+#12、修改数据库用户权限
 mysql -uroot -proot
 show databases;
 use mysql
@@ -188,7 +188,7 @@ json中字段若没有omitempty标记，则这个字段为空时，json序列化
 
 
 
-17、修改mysql配置
+#17、修改mysql配置
 mysql -uroot -p
 select @@sql_mode;
 
@@ -200,7 +200,7 @@ chmod u+x ./sh
 
 
 
-19、jetbrains账号
+#19、jetbrains账号
 账户：1067023515@qq.com
 密码：19940215Yvon
 
@@ -211,7 +211,7 @@ https://github.com/yvonne2345/practice
 
 
 
-20、修改数据库配置
+#20、修改数据库配置
 show variables like '%max_allowed_packet%';
 
 vim /etc/mysql/my.cnf
@@ -238,7 +238,7 @@ ctrl+Y可以删除一行长sql
 
 
 
-23、mysql函数
+#23、mysql函数
 -- mysql function
 drop FUNCTION if exists getTimePoint;
 drop FUNCTION if exists isTrue;
@@ -282,7 +282,7 @@ https://blog.csdn.net/wohu1104/article/details/106295007?utm_medium=distribute.p
 
 
 
-27、git命令
+#27、git命令
 git reflog show fjj-develop  git查看分支从那个分支拉取的，先切到该分支
 
 创建merge后回退(有多次提交，如提了三次想回到第二次)
@@ -290,9 +290,26 @@ git reset --hard +第二次的commitId  本地代码回到第二次提交后，�
 git push origin fjj -f  把分支代码push，-f强制推
 
 
+创建merge后回退(有多次提交，如提了三次想回到第二次)
+git reset --hard +第二次的commitId  本地代码回到第二次提交后，第三次修改前
+git push origin fjj -f  把分支代码push，-f强制推
+git reset --soft HEAD^ 代码回到本地，不会丢
+git reset --hard代码会丢
+
+
 28、vscode
 免输入密码登录vscode
 ssh-copy-id root@10.25.10.123
+
+免输入密码登录vscode
+ssh-copy-id root@10.25.10.130
+
+vscode和服务器无法建立连接(电脑本地)，ssh-keygen -R ip  
+
+ubuntu安装go环境
+vscode连远程
+vscode启动go项目冲突，vscode自身setting文件被修改，优先读取本地配置文件
+
 
 
 29、int类型如果在内存中占用了4个字节，就是32位，2的31次方
@@ -336,6 +353,50 @@ var x int = 2 and x := 2 这两种声明变量的区别
 
 
 
+32、scp传文件
+scp -r virus-api/ root@10.25.30.126:/opt 文件夹，递归，-r
+在本地或者其他环境远程另一个，比如在123上连126
+ssh root@10.25.30.126
+
+
+服务器执行shell脚本
+chmod u+x truncate.sh给脚本加权限
+./truncate.sh
+
+
+33、gpt
+https://guan.chat779.com/#/home
+
+
+34、终端查redis值：
+redis-cli
+auth Netvine123#@!
+hget setting:login lockNum
+hset setting:login lockNum 5
+
+
+swag init --parseDependency=true --parseInternal=true
+
+
+
+35、总结性链接
+mysql:
+https://www.lsdcloud.com/go/middleware/gorm.html#_1-%E5%AE%89%E8%A3%85
+https://gorm.io/zh_CN/
+
+
+
+
+
+
+
+
+
+
+
+
+
+36、其他
 申请书
 机械
 http://www.cmpedu.com/books/apply.htm
@@ -360,3 +421,8 @@ Java程序设计开发实战（视频讲解版）
 
 
 
+
+redis
+go build等命令
+rpc
+go语法

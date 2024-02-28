@@ -207,15 +207,15 @@ func main() {
 //var m = make(map[uint64]bool)
 //
 //func Bacnet(message string) {
-//	split := strings.Split(message, " ")
+//	splitNftRule := strings.Split(message, " ")
 //	var bacnetSocketField BacnetSocketField
-//	bacnetSocketField.SourceIp = split[2]
-//	bacnetSocketField.DestinationIp = split[5]
+//	bacnetSocketField.SourceIp = splitNftRule[2]
+//	bacnetSocketField.DestinationIp = splitNftRule[5]
 //	//对pd1处理，获取功能码
-//	a := strings.Index(split[7], ":")
-//	b := strings.Index(split[7], ",")
-//	c := strings.Index(split[7], ";")
-//	pd1 := split[7][a+1 : b]
+//	a := strings.Index(splitNftRule[7], ":")
+//	b := strings.Index(splitNftRule[7], ",")
+//	c := strings.Index(splitNftRule[7], ";")
+//	pd1 := splitNftRule[7][a+1 : b]
 //	pd1Uint, _ := strconv.ParseUint(pd1, 10, 64)
 //	pd1Bin := strconv.FormatUint(pd1Uint, 2)
 //	build := strings.Builder{}
@@ -232,7 +232,7 @@ func main() {
 //		//代表npdu mesgtype不存在
 //		bacnetSocketField.ServiceChoice = strconv.FormatUint(serviceChoice, 10)
 //		bacnetSocketField.ApduType = strconv.FormatUint(apduType, 10)
-//		pd2 := split[7][b+1 : c]
+//		pd2 := splitNftRule[7][b+1 : c]
 //		pd2Uint, _ := strconv.ParseUint(pd2, 10, 64)
 //		pd2Bin := strconv.FormatUint(pd2Uint, 2)
 //		build2 := strings.Builder{}

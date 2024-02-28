@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{.Title}}</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>列标题1</th>
+        <th>列标题2</th>
+        <th>列标题3</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{range $idx, $item := .MyData}}<tr>
+        <td>{{ $item.Name }}</td>
+        <td>{{ $item.Age }}</td>
+        <td>{{ $item.Tel }}</td>
+    </tr>{{end}}
+    </tbody>
+</table>
+
+</body>
+</html>
