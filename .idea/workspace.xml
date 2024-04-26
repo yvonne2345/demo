@@ -5,44 +5,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f76aadec-310c-44b3-9227-38e1f09a340c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/work/delete/delete.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/delete/sid.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/dump/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/redis/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/ssh/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/ssh/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/7.4/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/7.4/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/split/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/work/splitNftRule/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/untitled/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/work/html/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/untitled/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/untitled/src/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/untitled/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.txt" beforeDir="false" afterPath="$PROJECT_DIR$/go.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/work/html/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/.idea/html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/work/html/.idea/html.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/work/html/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/work/html/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/work/html/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/resource/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/html/resource/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/resource/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/html/resource/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/html/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/audit/intrusion_upgrade.sql" beforeDir="false" afterPath="$PROJECT_DIR$/work/audit/intrusion_upgrade.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/demo5/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/test/testPackage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mywork/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/audit/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mywork/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moduleDemo/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mywork/.idea/mywork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moduleDemo/.idea/mywork.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mywork/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/moduleDemo/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mywork/testa/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/moduleDemo/testa/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mywork/testa/other.go" beforeDir="false" afterPath="$PROJECT_DIR$/moduleDemo/testa/other.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mywork/testa/testa.go" beforeDir="false" afterPath="$PROJECT_DIR$/moduleDemo/testa/testa.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mywork/testb/11/print.go" beforeDir="false" afterPath="$PROJECT_DIR$/moduleDemo/testb/11/print.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mywork/testb/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/moduleDemo/testb/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mywork/testb/testb.go" beforeDir="false" afterPath="$PROJECT_DIR$/moduleDemo/testb/testb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_test/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_test/.idea/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/.idea/work.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/audit/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/audit/.idea/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/audit/.idea/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/delete/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/audit/.idea/.idea/.idea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/audit/.idea/.idea/.idea.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/audit/.idea/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/audit/.idea/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/audit/.idea/audit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/audit/.idea/audit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/audit/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/audit/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/audit/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/audit/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/audit/combination.go" beforeDir="false" afterPath="$PROJECT_DIR$/audit/combination.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/audit/conn.go" beforeDir="false" afterPath="$PROJECT_DIR$/audit/conn.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/audit/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/audit/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/audit/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/audit/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/audit/intrusion_upgrade.sql" beforeDir="false" afterPath="$PROJECT_DIR$/audit/intrusion_upgrade.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/delete/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dump/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/delete/.idea/delete.iml" beforeDir="false" afterPath="$PROJECT_DIR$/delete/.idea/delete.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/delete/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delete/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/delete/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delete/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/delete/delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/delete/delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/delete/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/delete/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/delete/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/delete/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/delete/sid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/delete/sid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/dump/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/html/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/dump/.idea/dump.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dump/.idea/dump.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/dump/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dump/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/dump/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dump/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/dump/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/dump/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/dump/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/dump/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/dump/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/dump/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/html/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/moduleDemo/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/html/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/html/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/html/.idea/html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/html/.idea/html.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/html/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/html/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/html/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/html/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/html/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/html/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/html/resource/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/resource/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/html/resource/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/resource/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/html/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/redis/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/redis/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/redis/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/redis/.idea/redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/.idea/redis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/redis/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/redis/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/redis/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/redis/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/redis/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/redis/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/redis/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/splitNftRule/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/splitNftRule/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/ssh/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/ssh/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/ssh/.idea/ssh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/.idea/ssh.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/ssh/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/ssh/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/ssh/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/ssh/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GOROOT" url="file://C:/Program Files/Go/go1.19" />
+  <component name="GOROOT" url="file://D:/software/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2U6GqszZYCyabdGCcdJJQ7m3JsI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,16 +105,35 @@
     &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/demo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/work/2024&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go.sdk&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\work\demo" />
+      <recent name="F:\work\demo\work\delete" />
+      <recent name="F:\work\demo\code" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build chan.go">
+    <configuration name="go build chan.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test/chan.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build code/split" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <working_directory value="$PROJECT_DIR$/code" />
@@ -74,8 +143,29 @@
       <filePath value="$PROJECT_DIR$/code/split/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build code/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <working_directory value="$PROJECT_DIR$/code" />
+      <kind value="PACKAGE" />
+      <package value="code/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/code/test/chan.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build daily/demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <working_directory value="$PROJECT_DIR$/code/daily" />
+      <kind value="PACKAGE" />
+      <package value="daily/demo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/code/daily/demo/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build chan.go" />
+        <item itemvalue="Go Build.go build code/test" />
+        <item itemvalue="Go Build.go build daily/demo" />
         <item itemvalue="Go Build.go build code/split" />
       </list>
     </recent_temporary>
